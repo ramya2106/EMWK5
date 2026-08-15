@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Student Registration</title>
+    </head>
+    <body>
+        <h2>Student Registration Form</h2>
+        <form id='form'>
+            <input id="name" type="text" placehoder="Name">
+            <br><br>
+            <input id="email" type="email" placeholder="Email">
+            <br><br>
+            <input id="age" type="number" placeholder="Age">
+            <br><br>
+
+            Gender:
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female
+            <br><br>
+
+            Skils:
+            <input type="checkbox" name="skills" value="HTML">HTML
+            <input type="checkbox" name="skills" value="CSS">CSS
+            <input type="checkbox" name="skills" value="Javascript">Javascript
+            <input type="checkbox" name="skills" value="React">React
+            <br><br>
+
+            <select id="course">
+                <option value="">Select Course</option>
+                <option>MERN</option>
+                <option>React</option>
+            </select>
+            <br><br>
+
+            <button>Register</button>
+        </form>
+
+        <p id="message"></p>
+        <h3>Students Details</h3>
+        <div id="output"></div>
+        <script src="script.js"></script>
+    </body>
+</html>
